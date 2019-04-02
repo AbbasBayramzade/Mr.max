@@ -42,6 +42,13 @@
             height:50px;
 
             }
+            .red{
+                background-color: #494533f2;
+                color: white
+            }
+            .obyekt:hover{
+                height:70px;
+            }
     </style>
     <link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min3c21.css?ver=5.1.1' type='text/css' media='all' />
     <link rel='stylesheet' id='mortgage-calculator-css'  href='wp-content/plugins/mortgage-calculator/css/main8449.css?ver=screen' type='text/css' media='all' />
@@ -323,7 +330,7 @@
                 <li>
 
                     <a class="slide" href="single.html"
-                       style="background: url('wp-content/uploads/2017/06/slide-one.jpg') 50% 50% no-repeat;
+                       style="background: url('img/slide2.jpg') 50% 50% no-repeat;
 									   background-size: cover;">
                     </a>
                     <div class="rh_slide__desc">
@@ -467,22 +474,19 @@
 
 					
 <div class="tab">
- 
-  <button class="tablinks" onclick="openCity(event, 'London')">
-    <i class="fa-2x fas fa-home"></i>
-
-  MƏNZİL</button>
-          <button type="submit"  onClick="refreshPage()">
-
-    <i class="fa-2x fas fa-home"></i>
-        
+              <button id="d1"  class="  obyekt" class="tablinks" onclick="openCity(event, 'London')">
+                <i class="fa-2x fas fa-home"></i>
+              MƏNZİL
+            </button>
+          <button id="d2" class="obyekt red " type="submit"  onClick="openCity2(event)">
+                <i class="fa-2x fas fa-home"></i>
+                <i class=" fa-2x fas fa-building"></i>
+                 HAMISI
+        </button>
+  <button id="d3" class="obyekt " onclick="openCity1(event, 'Paris')">
     <i class=" fa-2x fas fa-building"></i>
-
-  HAMISI</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">
-    <i class=" fa-2x fas fa-building"></i>
-
-  OBYEKT</button>
+      OBYEKT    
+</button>
 
 
 </div>
@@ -2372,6 +2376,7 @@
 <script type='text/javascript' src='wp-content/themes/realhomes/common/js/owl-carousel/owl.carousel.min531b.js?ver=2.3.4'></script>
 <script type='text/javascript' src='wp-content/themes/realhomes/common/js/venobox/venobox.min09e1.js?ver=1.8.5'></script>
 <script type='text/javascript' src='wp-content/themes/realhomes/common/js/common-customcd70.js?ver=3.8.3'></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script type='text/javascript' src='wp-includes/js/wp-embed.min3c21.js?ver=5.1.1'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
