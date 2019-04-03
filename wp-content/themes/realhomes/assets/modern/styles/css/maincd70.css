@@ -3386,16 +3386,18 @@ ul.flex-direction-nav a.flex-next:before { content: ''; background: url("../../i
 .add-to-compare path { fill: #fff; -webkit-transition: 0.2s all linear; transition: 0.2s all linear; }
 
 .rh_section__featured { margin: 0 auto; max-width: 65rem; padding: 0 0 3rem 0; position: relative; }
+.asdd { float: left; }
+
 
 @media (min-width: 320px) { .rh_section__featured { max-width: 100%; padding: 0 2rem 3rem; } }
 
-@media (min-width: 480px) { .rh_section__featured { max-width: 100%; padding: 0 3rem 3rem; } }
+@media (min-width: 480px) { .rh_section__featured { max-width: 100%; padding: 0 3rem 3rem; } }s
 
 @media (min-width: 768px) { .rh_section__featured { max-width: 50rem; padding: 0 0 3rem 0; } }
 
-@media (min-width: 1024px) { .rh_section__featured { max-width: 65rem; padding: 3rem 0; } }
+@media (min-width: 1024px) { .rh_section__featured { max-width: 100%; padding: 3rem 0; } }
 
-@media (min-width: 1140px) { .rh_section__featured { max-width: 65rem; padding: 3rem 0; } }
+@media (min-width: 1140px) { .rh_section__featured { max-width: 108rem; padding: 3rem 0; } }
 
 @media (min-width: 1280px) { .rh_section__featured { max-width: 65rem; padding: 3rem 0;margin-left: 5% } }
 
