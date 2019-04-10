@@ -3252,6 +3252,18 @@ ul.flex-direction-nav a.flex-next:before { content: ''; background: url("../../i
 
 #home-properties-section .pagination a.current { background: #1ea69a; color: #ffffff; }
 
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
+@media (min-width: 320px) { #home-properties-section .tab button { margin-top: 0; width: 100px; height: 70px; } }
+
 .svg-loader { display: none; }
 
 /** Property Card */
@@ -3348,6 +3360,8 @@ ul.flex-direction-nav a.flex-next:before { content: ''; background: url("../../i
 @media (min-width: 1140px) { .rh_prop_card .rh_prop_card__details { padding: 2rem; } }
 
 @media (min-width: 1280px) { .rh_prop_card .rh_prop_card__details { padding: 2.5rem; } }
+
+/*Card section*/
 
 .rh_prop_card .rh_prop_card__details h3 { margin: 0; margin-bottom: 1.5rem; }
 
